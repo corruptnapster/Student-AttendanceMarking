@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.corruptnapster.krmuattendance.MainActivity2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/i1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ab" />
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="120dp"
+                android:text="      My Profile" />
+
+            <ImageView
+                android:id="@+id/i2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/abc" />
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="120dp"
+                android:text="      Sign Out" />
+
+            <ImageView
+                android:id="@+id/i3"
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/t1"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="116dp"
+                android:src="@drawable/abcd" />
+
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="355dp"
+                android:text="Show Attendance" />
+
+            <ImageView
+                android:id="@+id/i4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="256dp"
+                android:src="@drawable/qwe" />
+
+
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="355dp"
+                android:text="Mark Attendance" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
